@@ -1,0 +1,32 @@
+/* body{
+    background-color: beige;
+}
+.title,.content{
+    font-size: 20pt;
+}
+.title{
+    font-weight: 600;
+    background-color: aqua;
+    color: blueviolet;
+    padding: 10px;
+    margin: 50px;
+} */
+
+.title {
+    border-bottom: 3px solid black;
+}
+
+.content {
+    text-align: justify;
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+@media screen and (max-width: 600px) {
+    img {
+        width: 100%;
+    }
+}
